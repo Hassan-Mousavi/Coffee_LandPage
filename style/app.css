@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 2rem;
+}
+.header {
+  height: 800px;
+  background-image: url(/images/grinde-coffee-beans-main.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 20px;
+  margin-bottom: 31rem;
+}
+.nav div {
+  display: flex;
+}
+.nav_list {
+  display: flex;
+  list-style-type: none;
+}
+.nav_item {
+  position: relative;
+  margin-right: 20px;
+}
+.nav_item:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+.header_title_part {
+  position: sticky;
+  left: 85rem;
+  width: 82rem;
+  color: #fff;
+  text-align: center;
+}
+.header_title {
+  font-size: 8.5rem;
+}
+.icon_under_h1 {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #fff;
+  margin-bottom: 1.5rem;
+}
+.icon_under_h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2rem;
+  height: 2px;
+  background-color: #fff;
+}
+.header_caption {
+  width: 80rem;
+  margin-bottom: 2rem;
+}
