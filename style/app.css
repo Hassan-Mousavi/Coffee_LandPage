@@ -8,9 +8,11 @@ html {
 }
 body {
   font-size: 2rem;
+  font-family: "roboto";
+  background-color: #020204;
 }
 .header {
-  height: 800px;
+  height: 76rem;
   background-image: url(/images/home-img.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -18,6 +20,7 @@ body {
 .container {
   width: 135rem;
   margin: 0 auto;
+  padding: 2rem 2%;
 }
 .nav {
   display: flex;
@@ -25,6 +28,7 @@ body {
   align-items: center;
   color: #fff;
   padding: 0.5rem 1rem 0 1rem;
+  margin-bottom: 10rem;
 }
 .nav div {
   display: flex;
@@ -75,17 +79,48 @@ body {
   color: #d3ad7f;
 }
 .header_title_part {
-  position: absolute;
-  left: 0;
-  top: 13rem;
-  width: 82rem;
+  width: 60rem;
   color: #fff;
-  text-align: center;
 }
 .header_title {
-  font-size: 8.5rem;
+  font-size: 6rem;
+  text-transform: uppercase;
 }
 .header_caption {
-  width: 80rem;
   margin-bottom: 2rem;
+  font-weight: lighter;
+  padding: 1rem 0;
+  line-height: 1.8;
+  color: #eee;
+}
+.header_link {
+  padding: 0.9rem 3rem;
+  background-color: #d3ad7f;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+/* section about us */
+.about_title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+}
+.about_title span {
+  color: #d3ad7f;
+}
+.about_part {
+  display: flex;
+  align-items: center;
+  background-color: #13131a;
+}
+.about_content_title {
+  font-size: 3rem;
+  color: #fff;
+}
+.about_content_caption,
+.about_content_caption-2 {
+  font-size: 1.6rem;
+  color: #ccc;
 }
