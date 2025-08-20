@@ -171,14 +171,23 @@ body {
   padding: 2rem;
 }
 .menu_link {
+  transition: all 0.2s ease;
   text-decoration: none;
   text-align: center;
   color: #ccc;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.menu_link:hover {
+  color: #d3ad7f;
 }
 .menu_image {
   height: 10rem;
   margin-bottom: 2rem;
 }
+
 /* section our products */
 .our_product {
   padding: 2rem 0;
@@ -239,4 +248,49 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #d3ad7f;
+}
+/* section customer's review */
+.customer_review {
+  padding: 2rem 0;
+}
+.review_title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+.review_title span {
+  color: #d3ad7f;
+}
+.review_box {
+  text-align: center;
+  width: 40rem;
+  height: 45rem;
+  padding: 3rem 2rem;
+  border: 1px solid #ccc;
+}
+.review_caption {
+  color: #ccc;
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+.review_person_image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.review_name {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.star {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #d3ad7f;
 }
