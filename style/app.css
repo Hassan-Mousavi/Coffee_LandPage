@@ -261,10 +261,16 @@ body {
 .review_title span {
   color: #d3ad7f;
 }
+.reviewes {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
 .review_box {
   text-align: center;
-  width: 40rem;
-  height: 45rem;
+  width: 35rem;
+  height: 50rem;
   padding: 3rem 2rem;
   border: 1px solid #ccc;
 }
