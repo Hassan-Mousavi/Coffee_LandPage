@@ -323,5 +323,53 @@ body {
 .contact_image {
   opacity: 0.6;
   width: 60rem;
-  height: 45rem;
+}
+.contact_details {
+  width: 100%;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.contact_title {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.input_box {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 2rem 0;
+  background-color: #020204;
+}
+.user_icon,
+.email_icon,
+.phone_icon {
+  height: 2.5rem;
+  fill: #fff;
+  padding-left: 2rem;
+}
+.inputs input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background-color: #020204;
+  color: #fff;
+}
+.contact_number::-webkit-inner-spin-button {
+  display: none;
+}
+.contact_btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.9rem 3rem;
+  background-color: #d3ad7f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  border: none;
 }
